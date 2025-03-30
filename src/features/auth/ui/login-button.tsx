@@ -2,13 +2,14 @@
 
 import { Button } from "@/shared/ui/button";
 import { LogIn } from "lucide-react";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 
 export function LoginButton() {
-  const router = useRouter();
+  // const router = useRouter();
 
   const handleLogin = () => {
-    router.push("/auth/login");
+    // router.push("/auth/login");
+    console.log("go to login");
   };
 
   return (
