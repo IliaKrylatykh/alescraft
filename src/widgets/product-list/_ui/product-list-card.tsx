@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const ProductListCard = ({
-  product,
+  // product,
   className,
 }: {
   product: ProductListItem;
